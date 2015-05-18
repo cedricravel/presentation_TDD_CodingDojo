@@ -10,9 +10,11 @@ class: center, middle
 ---
 
 ## TDD en pratique
-* Pas de code (de production) sans test !
-* Un nouveau test = un nouveau comportement
-* Ecrire au plus vite un code qui fait passer les test
+- Pas de code (de production) sans test !  
+
+- Un nouveau test = un nouveau comportement  
+
+- Ecrire au plus vite un code qui fait passer les test
 
 ---
 ## Un test de qualité : Clean Test
@@ -47,7 +49,7 @@ class: center, middle
 
 ---
 ## Exemple simple de TDD 
-**Code de Test**
+## Code de Test
 ```JAVA
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -63,8 +65,7 @@ public class TestMaClasse {
 }
 ```
 
----
-**Code de Production**
+## Code de Production
 ```JAVA
 public class MaClasse {
 	public String maMethodeATester() {
@@ -78,7 +79,7 @@ public class MaClasse {
 .center[![XP Rules](http://www.zeroplayer.com/images/stuff/TheFourCommandments.png) ![KISS](KISS.jpg)]  
 
 #Refactoring pour obtenir un code de qualité
-> Un refactoring (remaniement) consiste à changer la structure interne d’un logiciel sans en changer son comportement observable (M. Fowler)
+>Un refactoring (remaniement) consiste à changer la structure interne d’un logiciel sans en changer son comportement observable (M. Fowler)
 
 
 .center[![Refactoring](Refactoring.png)]
@@ -154,6 +155,36 @@ D     D
 ```  
 
 Liens vers diverses solutions : [https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/](https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/)
+
+---
+# Les indispensables du TDD
+
+## Infinitest : https://infinitest.github.io/  
+
+>Infinitest is a Continuous Testing plugin for Eclipse and IntelliJ.  
+
+
+## Les raccourcis clavier sont vos amis ...  
+dont le fameux *Extract Method* : `ALT+SHIFT+M` (Extract Method sous Eclipse)  
+
+Des raccourcis clavier fort utiles sous Eclipse :  
+http://blog.ippon.fr/2011/10/03/eclipse-ameliorer-sa-productivite-grace-aux-raccourcis-clavier/  
+http://blog.xebia.fr/2010/11/03/tdd-et-productivite/  
+
+---
+
+# Des plug-in pour un TDD plus ludique …
+
+.center[! http://www.happyprog.com]
+
+>Here at happyprog, we enjoy making little games to make programming more fun.
+
+Tdgotchi | Pulse|Pair Hero
+---------|---------|---------
+ ![Tdgotchi](http://www.happyprog.com/images/happyprog-28.png) | ![Pulse](http://www.happyprog.com/images/happyprog-29.png) |  ![Pair Hero](http://www.happyprog.com/images/happyprog-30.png)
+
+
+
 
 ---
 # Crédits 
