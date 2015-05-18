@@ -5,8 +5,11 @@ class: center, middle
 ---
 
 
-##TDD (Test Driven Development) : Mantra
-.center[![TDD_Mantra](TDD_Mantra.png)    ![TDD_MantraCat](http://blog.octo.com/wp-content/uploads/2013/06/38852942.jpg)]   
+##TDD (Test Driven Development)
+.center[![TDD_Mantra](TDD_Mantra.png)    ![TDD_MantraCat](TDD_MantraCat.jpg)]
+
+.center[Itérations « baby-step » rapides (de quelques secondes à quelques minutes)]
+   
 ---
 
 ## TDD en pratique
@@ -76,10 +79,14 @@ public class MaClasse {
 ---
 
 #Règles de simplicité d'XP
-.center[![XP Rules](http://www.zeroplayer.com/images/stuff/TheFourCommandments.png) ![KISS](KISS.jpg)]  
+.center[![XP Rules](XpSimplicityRules.png)]  
+
+.center[![KISS](KISS.jpg)]  
 
 #Refactoring pour obtenir un code de qualité
->Un refactoring (remaniement) consiste à changer la structure interne d’un logiciel sans en changer son comportement observable (M. Fowler)
+
+.center[*Un refactoring (remaniement) consiste à changer la structure interne d’un logiciel sans en changer son comportement observable*  
+(M. Fowler)]  
 
 
 .center[![Refactoring](Refactoring.png)]
@@ -87,11 +94,13 @@ public class MaClasse {
 ---
 # TDD : une technique de conception (émergente) ?
 
-> The act of writing a unit test is more an act of design than of verification. 
-> 
-> It is also more an act of documentation than of verification
-> 
-> (Robert. C. Martin)
+*The act of writing a unit test is more an act of design than of verification.* 
+  
+ 
+*It is also more an act of documentation than of verification* 
+  
+
+(Robert. C. Martin)
 
 ---
 #TDD : une discipline de programmation …
@@ -112,33 +121,39 @@ public class MaClasse {
 ---
 # Coding Dojo en pratique
 
- Randori     | Kata   
+
+- Dave Thomas : **(Code) Kata** ([http://codekata.com/](http://codekata.com/))
+- Laurent Bossavit : Faire des katas ensemble  
+
+### 2 pratiques possibles des katas
+
+ .center[ **Mode Randori**     | **Mode Kata**   
  ----------- |--------
-![Randori](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg)]| ![Kata](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)
+![Randori](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg) | ![Kata](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)]
 
-.center[*Le but n’est pas de terminer l’exercice, mais d’apprendre ...*]
-
-> **(Code) Kata** : Dave Thomas ([http://codekata.com/](http://codekata.com/))
-> 
-> **Coding Dojo** : Faire des katas ensemble (L. Bossavit)  
->                   
-> **Coding Dojo** : Lieu où on étudie la voie du code (A. Vernois)
+.center[*Le but n’est pas de terminer l’exercice, mais d’apprendre ...*  
+**Coding Dojo : Lieu où on étudie la voie du code (A. Vernois)**]
 
 ---
 # Let's Go : Kata Fizz Buzz
 
 .center[![FizzBuzz](http://agilekatas.co.uk/static/img/katas/kata_fizzbuzz.png)]
-
-[Enoncé Kata Fizz Buzz sur Kata Catalogue](http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz) 
+  
+  
+.center[[Enoncé Kata Fizz Buzz sur Kata Catalogue](http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz)] 
 
 ---
 # Let's Go : Kata Roman Numerals
 
 .center[![Numeral Roman](http://agilekatas.co.uk/static/img/katas/kata_romannumerals.png)]
+    
 
-[Enoncé Kata Roman Numerals sur Kata Catalogue ](http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals)
+.center[[Enoncé Kata Roman Numerals sur Kata Catalogue ](http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals)]
+   
+  
 
-De nombreux autres Katas sur : [Kata Catalogue](http://codingdojo.org/cgi-bin/index.pl?KataCatalogue)
+
+### De nombreux autres Katas sur : [Kata Catalogue](http://codingdojo.org/cgi-bin/index.pl?KataCatalogue)
 
 ---
 # Let's Go : Kata Diamond
@@ -154,7 +169,12 @@ D     D
    A 
 ```  
 
-Liens vers diverses solutions : [https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/](https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/)
+---
+# A propos du Kata Diamond
+ 
+### Quelques solutions pour le Kata Diamond  
+
+[https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/](https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/)
 
 ---
 # Les indispensables du TDD
@@ -164,10 +184,11 @@ Liens vers diverses solutions : [https://jaroslawpawlak.wordpress.com/2015/01/17
 >Infinitest is a Continuous Testing plugin for Eclipse and IntelliJ.  
 
 
-## Les raccourcis clavier sont vos amis ...  
-dont le fameux *Extract Method* : `ALT+SHIFT+M` (Extract Method sous Eclipse)  
+## Les raccourcis clavier sont vos amis  
+### dont le fameux *Extract Method* ... 
+`ALT+SHIFT+M` (Extract Method sous Eclipse)  
 
-Des raccourcis clavier fort utiles sous Eclipse :  
+### ... et quelques autres raccourcis clavier fort utiles sous Eclipse :  
 http://blog.ippon.fr/2011/10/03/eclipse-ameliorer-sa-productivite-grace-aux-raccourcis-clavier/  
 http://blog.xebia.fr/2010/11/03/tdd-et-productivite/  
 
@@ -181,26 +202,26 @@ http://blog.xebia.fr/2010/11/03/tdd-et-productivite/
 
 Tdgotchi | Pulse|Pair Hero
 ---------|---------|---------
- ![Tdgotchi](http://www.happyprog.com/images/happyprog-28.png) | ![Pulse](http://www.happyprog.com/images/happyprog-29.png) |  ![Pair Hero](http://www.happyprog.com/images/happyprog-30.png)
-
-
+ ![Tdgotchi](Tdgotchi.png) | ![Pulse](Pulse.png) |  ![Pair Hero](PairHero.png)
 
 
 ---
-# Crédits 
+# Pour finir ...
 
-* **Photos**
+### Crédits Photos
 
 [http://blog.octo.com/coder-a-pas-de-chaton-a-lecole-du-tech-lead/ ](http://blog.octo.com/coder-a-pas-de-chaton-a-lecole-du-tech-lead/)  
 [http://c2.com/cgi/wiki?XpSimplicityRules ](http://c2.com/cgi/wiki?XpSimplicityRules)  
 [https://www.flickr.com/photos/92501682@N00/5067471752](https://www.flickr.com/photos/92501682@N00/5067471752)  
 [http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg)  
 [http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)  
+[http://agilekatas.co.uk/static/img/katas/kata_fizzbuzz.png ](http://agilekatas.co.uk/static/img/katas/kata_fizzbuzz.png)  
+[http://agilekatas.co.uk/static/img/katas/kata_romannumerals.png ](http://agilekatas.co.uk/static/img/katas/kata_romannumerals.png) 
+http://www.happyprog.com/images/happyprog-28.png
+http://www.happyprog.com/images/happyprog-29.png
+http://www.happyprog.com/images/happyprog-30.png
 
-
-* **Markdown et Github**
-
-[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown)  
-[https://help.github.com/articles/markdown-basics/](https://help.github.com/articles/markdown-basics)   
-[https://help.github.com/articles/github-flavored-markdown/](https://help.github.com/articles/github-flavored-markdown)  
+### Autres
+Markdown : [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)  
+Remarjs : [https://github.com/gnab/remark](https://github.com/gnab/remark)   
 
