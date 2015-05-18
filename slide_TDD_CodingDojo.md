@@ -39,6 +39,7 @@ class: center, middle
 	}
 ````
 
+---
 ## Exemple simple de TDD 
 **Code de Test**
 ```JAVA
@@ -56,6 +57,7 @@ public class TestMaClasse {
 }
 ```
 
+---
 **Code de Production**
 ```JAVA
 public class MaClasse {
@@ -75,6 +77,7 @@ public class MaClasse {
 
 .center[![Refactoring](Refactoring.png)]
 
+---
 # TDD : une technique de conception (émergente) ?
 
 > The act of writing a unit test is more an act of design than of verification. 
@@ -83,13 +86,15 @@ public class MaClasse {
 > 
 > (Robert. C. Martin)
 
-
+---
 #TDD : une discipline de programmation …
 .center[![TDD Books](TDD_Books.png)]
 
+---
 #... qui demande un entrainement
 .center[![CodingDojo](CodingDojo.png)]
 
+---
 # Constat de départ
 > Si je veux apprendre le Judo, je vais m’inscrire au dojo du coin et y passer une heure par semaine pendant deux ans, au bout de quoi j’aurai peut-être envie de pratiquer plus assidûment.
 >
@@ -97,7 +102,8 @@ public class MaClasse {
 > 
 > (Laurent Bossavit)
 
-# Codig Dojo en pratique
+---
+# Coding Dojo en pratique
 
  Randori     | Kata   
  ----------- |--------
@@ -111,13 +117,14 @@ public class MaClasse {
 >                   
 > **Coding Dojo** : Lieu où on étudie la voie du code (A. Vernois)
 
-
+---
 # Let's Go : Kata Fizz Buzz
 
 .center[![FizzBuzz](http://agilekatas.co.uk/static/img/katas/kata_fizzbuzz.png)]
 
 [Enoncé Kata Fizz Buzz sur Kata Catalogue](http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz) 
 
+---
 # Let's Go : Kata Roman Numerals
 
 .center[![Numeral Roman](http://agilekatas.co.uk/static/img/katas/kata_romannumerals.png)]
@@ -126,7 +133,7 @@ public class MaClasse {
 
 De nombreux autres Katas sur : [Kata Catalogue](http://codingdojo.org/cgi-bin/index.pl?KataCatalogue)
 
-
+---
 # Let's Go : Kata Diamond
 
 Exemple de diamant en D :
@@ -142,6 +149,7 @@ D     D
 
 Liens vers diverses solutions : [https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/](https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/)
 
+---
 # Crédits 
 
 * **Photos**
