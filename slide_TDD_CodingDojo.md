@@ -52,7 +52,7 @@ class: center, middle
 
 ---
 ## Exemple simple de TDD 
-## Code de Test
+**Code de Test**
 ```JAVA
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -68,7 +68,7 @@ public class TestMaClasse {
 }
 ```
 
-## Code de Production
+**Code de Production**
 ```JAVA
 public class MaClasse {
 	public String maMethodeATester() {
@@ -83,6 +83,7 @@ public class MaClasse {
 
 .center[![KISS](KISS.jpg)]  
 
+---
 #Refactoring pour obtenir un code de qualité
 
 .center[*Un refactoring (remaniement) consiste à changer la structure interne d’un logiciel sans en changer son comportement observable*  
@@ -122,17 +123,17 @@ public class MaClasse {
 # Coding Dojo en pratique
 
 
-- Dave Thomas : **(Code) Kata** ([http://codekata.com/](http://codekata.com/))
-- Laurent Bossavit : Faire des katas ensemble  
-
-### 2 pratiques possibles des katas
-
- .center[ **Mode Randori**     | **Mode Kata**   
+- **Un (Code) Kata** (Dave Thomas : [http://codekata.com/](http://codekata.com/)) 
+- **Faire un kata ensemble** (Laurent Bossavit) 
+- **2 modes possibles**
+ 
+**Mode Randori**     | **Mode Kata**   
  ----------- |--------
-![Randori](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg) | ![Kata](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)]
+![Randori](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg) | ![Kata](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)  
+  
+.center[*Le but n’étant pas de terminer forcément l’exercice, mais d’apprendre ...*  
 
-.center[*Le but n’est pas de terminer l’exercice, mais d’apprendre ...*  
-**Coding Dojo : Lieu où on étudie la voie du code (A. Vernois)**]
+.center[**=> Un coding dojo est un lieu où on étudie la voie du code** (Antoine Vernois)]
 
 ---
 # Let's Go : Kata Fizz Buzz
