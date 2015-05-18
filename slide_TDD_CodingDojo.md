@@ -122,7 +122,6 @@ public class MaClasse {
 ---
 # Coding Dojo en pratique
 
-
 - **Un (Code) Kata** (Dave Thomas : [http://codekata.com/](http://codekata.com/)) 
 - **Faire un kata ensemble** (Laurent Bossavit) 
 - **2 modes possibles**
@@ -131,9 +130,9 @@ public class MaClasse {
  ----------- |--------
 ![Randori](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg) | ![Kata](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)  
   
-.center[*Le but n’étant pas de terminer forcément l’exercice, mais d’apprendre ...*  
+- **But : Apprendre avant tout, chacun à son niveau**, sans forcément terminer l’exercice...
 
-.center[**=> Un coding dojo est un lieu où on étudie la voie du code** (Antoine Vernois)]
+.center[**Un coding dojo est un lieu où on étudie la voie du code** (Antoine Vernois)]
 
 ---
 # Let's Go : Kata Fizz Buzz
@@ -197,7 +196,7 @@ http://blog.xebia.fr/2010/11/03/tdd-et-productivite/
 
 # Des plug-in pour un TDD plus ludique …
 
-.center[! http://www.happyprog.com]
+.center[http://www.happyprog.com]
 
 >Here at happyprog, we enjoy making little games to make programming more fun.
 
@@ -211,16 +210,16 @@ Tdgotchi | Pulse|Pair Hero
 
 ### Crédits Photos
 
-[http://blog.octo.com/coder-a-pas-de-chaton-a-lecole-du-tech-lead/ ](http://blog.octo.com/coder-a-pas-de-chaton-a-lecole-du-tech-lead/)  
-[http://c2.com/cgi/wiki?XpSimplicityRules ](http://c2.com/cgi/wiki?XpSimplicityRules)  
-[https://www.flickr.com/photos/92501682@N00/5067471752](https://www.flickr.com/photos/92501682@N00/5067471752)  
-[http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg)  
-[http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)  
-[http://agilekatas.co.uk/static/img/katas/kata_fizzbuzz.png ](http://agilekatas.co.uk/static/img/katas/kata_fizzbuzz.png)  
-[http://agilekatas.co.uk/static/img/katas/kata_romannumerals.png ](http://agilekatas.co.uk/static/img/katas/kata_romannumerals.png) 
-http://www.happyprog.com/images/happyprog-28.png
-http://www.happyprog.com/images/happyprog-29.png
-http://www.happyprog.com/images/happyprog-30.png
+http://blog.octo.com/coder-a-pas-de-chaton-a-lecole-du-tech-lead   
+http://c2.com/cgi/wiki?XpSimplicityRules  
+https://www.flickr.com/photos/92501682@N00/5067471752   
+http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg  
+http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif   
+http://agilekatas.co.uk/static/img/katas/kata_fizzbuzz.png   
+http://agilekatas.co.uk/static/img/katas/kata_romannumerals.png   
+http://www.happyprog.com/images/happyprog-28.png  
+http://www.happyprog.com/images/happyprog-29.png  
+http://www.happyprog.com/images/happyprog-30.png  
 
 ### Autres
 Markdown : [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)  
