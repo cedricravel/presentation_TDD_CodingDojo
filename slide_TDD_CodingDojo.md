@@ -17,9 +17,13 @@ class: center, middle
 ---
 ## Un test de qualité : Clean Test
 - **F**ast
+
 - **I**ndependant
+
 - **R**epeatable
+
 - **S**elf-validating
+
 - **T**imely
 
 ---
@@ -27,7 +31,9 @@ class: center, middle
 ## Amélioration de la lisibilité du test : pattern AAA
 
 - **A**rrange
+
 - **A**ct
+
 - **A**ssert
 
 ```JAVA
@@ -167,4 +173,3 @@ Liens vers diverses solutions : [https://jaroslawpawlak.wordpress.com/2015/01/17
 [https://help.github.com/articles/markdown-basics/](https://help.github.com/articles/markdown-basics)   
 [https://help.github.com/articles/github-flavored-markdown/](https://help.github.com/articles/github-flavored-markdown)  
 
----
