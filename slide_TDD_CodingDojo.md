@@ -1,7 +1,9 @@
 class: center, middle
 
-# Coding Dojo : une aide à la pratique du TDD
+# Coding Dojo : une aide à la pratique du TDD  
+  
 ### Isabelle BLASQUEZ
+### [@iblasquez](https://twitter.com/iblasquez)
 ---
 
 
@@ -192,7 +194,7 @@ D     D
 [https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/](https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/)
 
 ---
-# Les indispensables du TDD : Confiance continue
+# Les indispensables du TDD : Confiance
 
 ## Infinitest : https://infinitest.github.io/  
 
@@ -219,7 +221,7 @@ http://blog.xebia.fr/2010/11/03/tdd-et-productivite/
 
 > Fluent assertions for java 
  
-```JAVA
+```JAVA  
 import static org.assertj.core.api.Assertions.*;
 
 // common assertions
@@ -240,7 +242,7 @@ assertThat(fellowshipOfTheRing).hasSize(9)
 ## Mockito : http://mockito.org/
 
 **Vérifier des interactions (mock)**  
-```JAVA
+```JAVA  
 import static org.mockito.Mockito.*;
 
 // mock creation
@@ -254,7 +256,7 @@ verify(mockedList).clear();
 ```  
 
 **Bouchonner des appels de méthodes (stub)**  
-```JAVA
+```JAVA  
 LinkedList mockedList = mock(LinkedList.class);
 when(mockedList.get(0)).thenReturn("first");
 
