@@ -48,7 +48,7 @@ class: center, middle
 		String resultat = monObjet.maMethodeATester();
 		assertEquals("Hello World!", resultat);
 	}
-````
+```
 
 ---
 ## Exemple simple de TDD 
@@ -113,11 +113,11 @@ public class MaClasse {
 
 ---
 # Constat de départ
-> Si je veux apprendre le Judo, je vais m’inscrire au dojo du coin et y passer une heure par semaine pendant deux ans, au bout de quoi j’aurai peut-être envie de pratiquer plus assidûment.
->
-> Si je veux apprendre la programmation objet, mon employeur va me trouver une formation de trois jours à Java dans le catalogue 2004. 
-> 
-> (Laurent Bossavit)
+*Si je veux apprendre le Judo, je vais m’inscrire au dojo du coin et y passer une heure par semaine pendant deux ans, au bout de quoi j’aurai peut-être envie de pratiquer plus assidûment.*  
+
+*Si je veux apprendre la programmation objet, mon employeur va me trouver une formation de trois jours à Java dans le catalogue 2004.*  
+ 
+(Laurent Bossavit)
 
 ---
 # Coding Dojo en pratique
@@ -125,14 +125,28 @@ public class MaClasse {
 - **Un (Code) Kata** (Dave Thomas : [http://codekata.com/](http://codekata.com/)) 
 - **Faire un kata ensemble** (Laurent Bossavit) 
 - **2 modes possibles**
- 
-**Mode Randori**     | **Mode Kata**   
- ----------- |--------
-![Randori](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg) | ![Kata](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)  
-  
-- **But : Apprendre avant tout, chacun à son niveau**, sans forcément terminer l’exercice...
 
-.center[**Un coding dojo est un lieu où on étudie la voie du code** (Antoine Vernois)]
+---
+# Coding Dojo en mode Randori
+  
+  
+.center[![Randori](http://upload.wikimedia.org/wikipedia/commons/5/53/Judo_children.jpg)]
+
+---
+# Coding Dojo en mode Kata
+    
+
+.center[![Kata](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)]  
+
+---
+# Coding Dojo ...
+
+
+**But : Apprendre avant tout, chacun à son niveau**, sans forcément terminer l’exercice...
+  
+  
+
+.center[***Un coding dojo est un lieu où on étudie la voie du code*** (Antoine Vernois)]
 
 ---
 # Let's Go : Kata Fizz Buzz
@@ -177,21 +191,75 @@ D     D
 [https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/](https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/)
 
 ---
-# Les indispensables du TDD
+# Les indispensables du TDD : Confiance continue
 
 ## Infinitest : https://infinitest.github.io/  
 
 >Infinitest is a Continuous Testing plugin for Eclipse and IntelliJ.  
 
 
+---
+# Les indispensables du TDD : Productivité
+
 ## Les raccourcis clavier sont vos amis  
+ 
 ### dont le fameux *Extract Method* ... 
 `ALT+SHIFT+M` (Extract Method sous Eclipse)  
+  
 
 ### ... et quelques autres raccourcis clavier fort utiles sous Eclipse :  
 http://blog.ippon.fr/2011/10/03/eclipse-ameliorer-sa-productivite-grace-aux-raccourcis-clavier/  
-http://blog.xebia.fr/2010/11/03/tdd-et-productivite/  
+http://blog.xebia.fr/2010/11/03/tdd-et-productivite/
 
+---
+# Les indispensables du TDD : Lisibilité
+
+> Fluent assertions for java 
+
+## AssertJ : http://joel-costigliola.github.io/assertj/ 
+```JAVA
+import static org.assertj.core.api.Assertions.*;
+
+// common assertions
+assertThat(frodo.getName()).isEqualTo("Frodo");
+assertThat(frodo).isNotEqualTo(sauron)
+                 .isIn(fellowshipOfTheRing);
+
+// collection specific assertions
+assertThat(fellowshipOfTheRing).hasSize(9)
+                               .contains(frodo,sam)
+                               .doesNotContain(sauron);
+ ```
+---
+# Les indispensables du TDD : Doublures
+
+## Mockito : http://mockito.org/
+
+- **Vérifier des interactions (mock)**  
+```JAVA
+import static org.mockito.Mockito.*;
+
+// mock creation
+List mockedList = mock(List.class);
+mockedList.add("one");
+mockedList.clear();
+
+// selective, explicit, highly readable verification
+verify(mockedList).add("one");
+verify(mockedList).clear();
+````
+
+- **Bouchonner des appels de méthodes (stub)**
+```JAVA
+LinkedList mockedList = mock(LinkedList.class);
+when(mockedList.get(0)).thenReturn("first");
+
+// the following prints "first"
+System.out.println(mockedList.get(0));
+
+// the following prints "null" because get(999) was not stubbed
+System.out.println(mockedList.get(999));
+```
 ---
 
 # Des plug-in pour un TDD plus ludique …
@@ -223,5 +291,5 @@ http://www.happyprog.com/images/happyprog-30.png
 
 ### Autres
 Markdown : [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)  
-Remarjs : [https://github.com/gnab/remark](https://github.com/gnab/remark)   
+Remarkjs : [https://github.com/gnab/remark](https://github.com/gnab/remark)   
 
