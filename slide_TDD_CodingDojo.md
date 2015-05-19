@@ -239,7 +239,7 @@ assertThat(fellowshipOfTheRing).hasSize(9)
 
 ## Mockito : http://mockito.org/
 
-- **Vérifier des interactions (mock)**  
+**Vérifier des interactions (mock)**  
 ```JAVA
 import static org.mockito.Mockito.*;
 
@@ -251,9 +251,9 @@ mockedList.clear();
 // selective, explicit, highly readable verification
 verify(mockedList).add("one");
 verify(mockedList).clear();
-```
+```  
 
-- **Bouchonner des appels de méthodes (stub)**
+**Bouchonner des appels de méthodes (stub)**  
 ```JAVA
 LinkedList mockedList = mock(LinkedList.class);
 when(mockedList.get(0)).thenReturn("first");
