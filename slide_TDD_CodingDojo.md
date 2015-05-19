@@ -122,9 +122,12 @@ public class MaClasse {
 ---
 # Coding Dojo en pratique
 
-- **Un (Code) Kata** (Dave Thomas : [http://codekata.com/](http://codekata.com/)) 
-- **Faire un kata ensemble** (Laurent Bossavit) 
-- **2 modes possibles**
+- **Un (Code) Kata** (Dave Thomas : [http://codekata.com/](http://codekata.com/))  
+ 
+- **Faire un kata ensemble** (Laurent Bossavit)  
+ 
+- **2 modes possibles**  
+
 
 ---
 # Coding Dojo en mode Randori
@@ -139,14 +142,12 @@ public class MaClasse {
 .center[![Kata](http://upload.wikimedia.org/wikipedia/commons/1/12/Mae.gif)]  
 
 ---
-# Coding Dojo ...
-
-
-**But : Apprendre avant tout, chacun à son niveau**, sans forcément terminer l’exercice...
+# Coding Dojo 
+.center[***Un coding dojo est un lieu où on étudie la voie du code*** (Antoine Vernois)] 
   
-  
-
-.center[***Un coding dojo est un lieu où on étudie la voie du code*** (Antoine Vernois)]
+ 
+.center[**But : Apprendre avant tout, chacun à son niveau**,   
+sans forcément terminer l’exercice...]
 
 ---
 # Let's Go : Kata Fizz Buzz
@@ -214,9 +215,10 @@ http://blog.xebia.fr/2010/11/03/tdd-et-productivite/
 ---
 # Les indispensables du TDD : Lisibilité
 
-> Fluent assertions for java 
+## AssertJ : http://joel-costigliola.github.io/assertj/
 
-## AssertJ : http://joel-costigliola.github.io/assertj/ 
+> Fluent assertions for java 
+ 
 ```JAVA
 import static org.assertj.core.api.Assertions.*;
 
@@ -229,6 +231,8 @@ assertThat(frodo).isNotEqualTo(sauron)
 assertThat(fellowshipOfTheRing).hasSize(9)
                                .contains(frodo,sam)
                                .doesNotContain(sauron);
+
+// ...
  ```
 ---
 # Les indispensables du TDD : Doublures
@@ -247,18 +251,15 @@ mockedList.clear();
 // selective, explicit, highly readable verification
 verify(mockedList).add("one");
 verify(mockedList).clear();
-````
+```
 
 - **Bouchonner des appels de méthodes (stub)**
 ```JAVA
 LinkedList mockedList = mock(LinkedList.class);
 when(mockedList.get(0)).thenReturn("first");
 
-// the following prints "first"
-System.out.println(mockedList.get(0));
-
-// the following prints "null" because get(999) was not stubbed
-System.out.println(mockedList.get(999));
+System.out.println(mockedList.get(0)); //prints "first"
+System.out.println(mockedList.get(999)); //prints "null": get(999) was not stubbed
 ```
 ---
 
