@@ -175,16 +175,31 @@ sans forcément terminer l’exercice...]
 ---
 # Let's Go : Kata Diamond
 
-Exemple de diamant en D :
+Given a letter print a diamond starting with 'A' with the supplied letter at the widest point.
+
+For example: print-diamond 'E' prints
 ```
-   A   
-  B B  
- C   C 
-D     D
- C   C 
-  B B  
-   A 
-```  
+    A
+   B B
+  C   C
+ D     D
+E       E
+ D     D
+  C   C
+   B B
+    A
+```
+For example: print-diamond 'C' prints
+```
+  A
+ B B
+C   C
+ B B
+  A
+```
+
+.center[[Enoncé Kata Print Diamond sur cyber-dojo.org](http://cyber-dojo.org/setup/show)] 
+
 
 ---
 # A propos du Kata Diamond
@@ -192,6 +207,9 @@ D     D
 ### Quelques solutions pour le Kata Diamond  
 
 [https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/](https://jaroslawpawlak.wordpress.com/2015/01/17/diamond-kata/)
+
+[https://github.com/emilybache/DiamondKata](https://github.com/emilybache/DiamondKata)
+
 
 ---
 # Les indispensables du TDD : Confiance
