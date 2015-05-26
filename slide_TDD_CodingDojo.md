@@ -166,8 +166,9 @@ sans forcément terminer l’exercice...]
 [http://c2.com/cgi/wiki?FizzBuzzTest](http://c2.com/cgi/wiki?FizzBuzzTest)
 
 ### Kata Fizz Buzz Enterprise 
-*FizzBuzz Enterprise Edition is a no-nonsense implementation of FizzBuzz made by a serious businessman for serious business purposes.* 
-[https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition] (https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+*FizzBuzz Enterprise Edition is a no-nonsense implementation of FizzBuzz made by a serious businessman for serious business purposes.*  
+[https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+
 ---
 # Let's Go : Kata Roman Numerals
 
