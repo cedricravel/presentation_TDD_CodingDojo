@@ -315,6 +315,27 @@ Markdown : [http://daringfireball.net/projects/markdown/syntax](http://daringfir
 Remarkjs : [https://github.com/gnab/remark](https://github.com/gnab/remark)   
 
 ---
+# Bonus : TDD & Design
+
+### TDD, une affaire de design    
+[http://www.arolla.fr/blog/2015/04/tdd-une-affaire-de-design](http://www.arolla.fr/blog/2015/04/tdd-une-affaire-de-design)
+
+### Does TDD really lead to good design?
+[http://codurance.com/2015/05/12/does-tdd-lead-to-good-design](http://codurance.com/2015/05/12/does-tdd-lead-to-good-design)
+
+
+
+---
+# Bonus : Outside In TDD
+*Sandro Mancuso decided to record a video showing how he normally codes, which is different from how he normally teaches.*
+
+- Outside In TDD part I : https://www.youtube.com/watch?v=XHnuMjah6ps
+
+- Outside In TDD part II : https://www.youtube.com/watch?v=gs0rqDdz3ko
+
+- Outside In TDD part III : https://www.youtube.com/watch?v=R9OAt9AOrzI
+
+---
 # Bonus : A propos du Kata Fizz Buzz
 
 ### Un peu de lecture sur le Kata Fizz Buzz   
