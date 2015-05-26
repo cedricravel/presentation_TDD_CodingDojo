@@ -160,16 +160,6 @@ sans forcément terminer l’exercice...]
 .center[[Enoncé Kata Fizz Buzz sur Kata Catalogue](http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz)] 
 
 ---
-# A propos du Kata Fizz Buzz
-
-### Un peu de lecture sur le Kata Fizz Buzz   
-[http://c2.com/cgi/wiki?FizzBuzzTest](http://c2.com/cgi/wiki?FizzBuzzTest)
-
-### Kata Fizz Buzz Enterprise 
-*FizzBuzz Enterprise Edition is a no-nonsense implementation of FizzBuzz made by a serious businessman for serious business purposes.*  
-[https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
-
----
 # Let's Go : Kata Roman Numerals
 
 .center[![Numeral Roman](http://agilekatas.co.uk/static/img/katas/kata_romannumerals.png)]
@@ -324,3 +314,15 @@ http://www.happyprog.com/images/happyprog-30.png
 Markdown : [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)  
 Remarkjs : [https://github.com/gnab/remark](https://github.com/gnab/remark)   
 
+---
+# Bonus : A propos du Kata Fizz Buzz
+
+### Un peu de lecture sur le Kata Fizz Buzz   
+[http://c2.com/cgi/wiki?FizzBuzzTest](http://c2.com/cgi/wiki?FizzBuzzTest)
+
+### Fizz Buzz dans de nombreux langages de programmation  
+[http://rosettacode.org/wiki/FizzBuzz](http://rosettacode.org/wiki/FizzBuzz)
+
+### Kata Fizz Buzz Enterprise 
+*FizzBuzz Enterprise Edition is a no-nonsense implementation of FizzBuzz made by a serious businessman for serious business purposes.*  
+[https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
